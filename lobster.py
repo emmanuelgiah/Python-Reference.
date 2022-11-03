@@ -14,8 +14,8 @@ while lifespan < 13:
 
 	if winFactor > 1:
 		lifespan = 13;
-		print("You are dead!!!!");
+		print("You died.");
 	elif winFactor < 0:
 		lifespan = 13;
-		print("You are a GOD!!!");
+		print("You lived.");
 	lifespan += 1;
